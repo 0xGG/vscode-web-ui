@@ -9,7 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
   // item is selected
   const statusBar = vscode.window.createStatusBarItem(
     vscode.StatusBarAlignment.Left,
-    9999
+    9999999999
   );
   statusBar.command = "workbench.action.showCommands";
   statusBar.text = `$(debug-console-evaluation-prompt)`; // https://code.visualstudio.com/api/references/icons-in-labels
